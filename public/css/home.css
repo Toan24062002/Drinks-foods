@@ -1,0 +1,91 @@
+header{
+    background-color: rgba(0, 0, 0, 0.701);
+    height: 80px;
+    border-radius: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    align-items: center; /* Canh giữa theo chiều dọc */
+    height: 100%; /* Đảm bảo chiều cao của thanh điều hướng là 100% của phần tử cha */
+    font-size: 20px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Canh giữa theo chiều dọc */
+}
+
+.navigation ul li {
+    margin: 0 50px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navigation li a:hover {
+    color: #fcff4c;
+
+}
+.navigation> ul> a> img {
+    width: 150px; /* Điều chỉnh kích thước tối đa của hình ảnh */
+}
+.container_ban
+{
+    margin: 20px;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     background-color: #f9f9f9;
+}
+.ban-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.ban-item{
+    background-color: #bae9fd;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.dsach {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+thead {
+    background-color: #f2f2f2;
+}
+
+th,
+td {
+    padding-right: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #6596fe;
+    color: white;
+    position: sticky;
+    top: 0;
+
+
+}
+
+tr:hover {
+    background-color: #f3f3f3;
+}
+.ban-list a{
+    text-decoration: none;
+}
